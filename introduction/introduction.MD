@@ -31,6 +31,10 @@ _class: invert
 
 ---
 
+![Satoshi's Email](../assets/bitcoin-email.png)
+
+---
+
 #  What is Blockchain?
 
 - A **decentralized ledger** of transactions  
