@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: default
+theme: gaia
 _class: invert
 ---
 
@@ -11,6 +11,26 @@ _class: invert
 **By ET-TAOUSY Zouhair**
 
 ---
+
+# Internet Protocol Layers
+
+ The internet: Layers of open protocola
+
+1. **Network layer** – Ethernet (connectivity)  1974
+2. **Network Layer** – TCP/IP (connectivity)  1974
+4. **Application Layer** – HTTP 1990
+PIZZA Hut: 1994 (fist sell) pizza.net
+4. **Application Layer** – SSL/TLS 1996
+---
+
+
+# Cryptography
+
+## Communications in the presence of adversaries
+
+## SSL/TLS
+---
+
 
 # A Brief History of Blockchain
 
