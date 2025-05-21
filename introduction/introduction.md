@@ -25,6 +25,9 @@ _class: invert
 
 ---
 
+
+
+
 ##  Successful Systems (Before Bitcoin)
 
 | Name         | Year | Description | Status |
@@ -69,7 +72,7 @@ _class: invert
 1. **Link Layer** – Ethernet (physical/data link connectivity)  1974
 2. **Network Layer** – TCP/IP (connectivity)  1974
 3. **Application Layer** – HTTP 1990
-PIZZA Hut: 1994 (fist sell) PizzaNet
+PIZZA Hut: 1994 (first sell) PizzaNet
 
 ---
 
@@ -180,14 +183,14 @@ PIZZA Hut: 1994 (fist sell) pizza.net
 
 ---
 
+```mermaid
 graph LR
-  Block1["+------------+<br>| Block 1    |<br>+------------+<br>| PrevHash: 0000 |<br>| Tx:          |<br>| - Alice → Bob |<br>| - Carol → Dave|<br>+------------+"]
-  Block2["+------------+<br>| Block 2    |<br>+------------+<br>| PrevHash: a1b2 |<br>| Tx:          |<br>| - Bob → Charlie|<br>| - Dave → Eve  |<br>+------------+"]
-  Block3["+------------+<br>| Block 3    |<br>+------------+<br>| PrevHash: d4e5 |<br>| Tx:          |<br>| - Eve → Alice |<br>| - Tom → Zoe  |<br>+------------+"]
+  Block1["+" + "------------" + "+<br>| Block 1    |<br>+" + "------------" + "+<br>| PrevHash: 0000 |<br>| Tx:          |<br>| - Alice → Bob |<br>| - Carol → Dave|<br>+" + "------------" + "+"]
+  Block2["+" + "------------" + "+<br>| Block 2    |<br>+" + "------------" + "+<br>| PrevHash: a1b2 |<br>| Tx:          |<br>| - Bob → Charlie|<br>| - Dave → Eve  |<br>+" + "------------" + "+"]
+  Block3["+" + "------------" + "+<br>| Block 3    |<br>+" + "------------" + "+<br>| PrevHash: d4e5 |<br>| Tx:          |<br>| - Eve → Alice |<br>| - Tom → Zoe  |<br>+" + "------------" + "+"]
 
-  Block1 -->|Hash| Block2 -->|Hash| Block
-
-
+  Block1 -->|Hash| Block2 -->|Hash| Block3
+```
 ---
 
 # Blocks structure
@@ -219,13 +222,21 @@ graph LR
 
 ---
 
-# 🔍 Real Use Cases from My Work
+# 🔍 Real Use Cases
 
 ✅ **Cryptocurrencies** – Decentralized digital money (e.g., Bitcoin, Ethereum).  
 ✅ **supply Chain** – Transparent, tamper-proof tracking of goods.  
 ✅ **Identity Management** – Secure digital IDs (e.g., passports, credentials). 
 ✅ **Healthcare** – Immutable patient records & drug traceability. 
 
+
+---
+
+![Carrefour](../assets/carrefour-tracability.png)
+
+---
+
+![Renault](../assets/renault-ibm.png)
 
 ---
 
