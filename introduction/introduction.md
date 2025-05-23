@@ -51,14 +51,14 @@ _class: invert
 
 # Internet Protocol Layers
 
- The internet: Layers of open protocola
+ The internet: Layers of open protocols
 
 1. **Link Layer** – Ethernet (physical/data link connectivity)  1974
 ---
 
 # Internet Protocol Layers
 
- The internet: Layers of open protocola
+ The internet: Layers of open protocols
 
 1. **Link Layer** – Ethernet (physical/data link connectivity)  1974
 2. **Network Layer** – TCP/IP (connectivity)  1974
@@ -67,12 +67,16 @@ _class: invert
 
 # Internet Protocol Layers
 
- The internet: Layers of open protocola
+ The internet: Layers of open protocols
 
 1. **Link Layer** – Ethernet (physical/data link connectivity)  1974
 2. **Network Layer** – TCP/IP (connectivity)  1974
 3. **Application Layer** – HTTP 1990
-PIZZA Hut: 1994 (first sell) PizzaNet
+
+---
+# PIZZA Hut: 1994 (first sell) PizzaNet
+
+![First sell online](../assets/first-sell-online.jpg)
 
 ---
 
@@ -101,7 +105,11 @@ PIZZA Hut: 1994 (fist sell) pizza.net
 5.  **Bitcoin?**
 
 ---
+# First purshase made with bitcoins
 
+!["First pizza"](../assets/pizza-for-bitcoin.jpeg)
+
+---
 
 # Cryptography ?
 
