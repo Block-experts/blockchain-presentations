@@ -4,11 +4,29 @@ theme: default
 _class: invert
 ---
 
-# Introduction to Blockchain
+# Introduction to the Blockchain
 
 #### Understanding the Technology and Its Real-World Impact
+<!-- 
+Course Introduction: Why Blockchain?
+To understand the importance of blockchain, we need to go back to the period after World War II. After the war, the Allied nations came together to rebuild the global financial system. This led to the Bretton Woods Agreement in 1944, where it was decided that:
 
+The US dollar would become the world's reserve currency.
 
+It would be backed by gold, meaning every dollar could be exchanged for a fixed amount of gold.
+
+Other national currencies were pegged to the US dollar at fixed exchange rates.
+
+This system brought stability for a few decades, but in 1971, US President Richard Nixon unilaterally ended the gold standard — meaning the dollar was no longer backed by gold. This move effectively made all currencies fiat (not backed by any physical asset), and it shook the global financial system.
+
+In the years that followed, concerns about centralized monetary control, inflation, and financial surveillance grew. Some libertarians and technologists tried to create alternative forms of digital money, like e-gold, but these early attempts were centralized and ultimately shut down by governments.
+
+Then, in 2009, a revolutionary idea was born: Bitcoin. It introduced the concept of decentralized digital money — a currency not controlled by any government or corporation, and built on a transparent, secure technology: the blockchain. -->
+
+---
+| ![Bretton Woods](../assets/bretton_woods_sign-2-90d7d.jpg.crdownload) | ![Nixon Ends Gold Standard](../assets/stockdormondial.jpg) |
+|:---------------------------------------------:|:------------------------------------------------------------:|
+| **Bretton Woods Agreement, 1944**             | **Nixon Ends Gold Standard, 1971**                           |
 ---
 
 # Internet Protocol Layers
@@ -236,6 +254,12 @@ order to be able to participate in the validation of transactions.
 # Digital Identity (In Group)
 
 Verifiable credentials
+
+---
+
+# Real Estate Tokenization
+
+![NFT Tokenization](../assets/tokenize.png)
 
 ---
 
