@@ -17,15 +17,27 @@ A cryptocurrency wallet is a tool that securely stores your private keys, enabli
 - **Support for Multiple Cryptocurrencies**: manage multiple cryptocurrencies in one place.
 
 ---
-## Cryptocurrency Wallet Types
+### Wallet Types
 
-### Custodial Wallets
-Custodial wallets are managed by third-party services, such as cryptocurrency exchanges. These wallets hold your private keys on your behalf, making them convenient but less secure.
-
-### Non-Custodial Wallets
-Non-custodial wallets give you full control over your private keys, ensuring greater security and ownership of your digital assets. However, they require more responsibility to manage.
+<img src="../assets/custodial-vs-non-custodial.png" width="1000">
 
 ---
+
+# Custodial vs Non-Custodial Wallets
+
+|                     | **Custodial**              | **Non-Custodial**              |
+|---------------------|----------------------------|---------------------------------|
+| **Known as**        | Trading Account            | Private Key Wallet              |
+| **Control**         | Third-party holds keys     | You hold your keys              |
+| **Philosophy**      | "Crypto made easy"         | "Your keys, your crypto"        |
+| **Web3 Access**     | No DeFi/dApps              | Full DeFi/dApps access          |
+| **Risk**            | Hack/company failure       | Lost/stolen keys                |
+| **Experience**      | Easy, familiar             | Learning curve                  |
+| **Privacy**         | Requires KYC/AML           | No ID required                  |
+| **Tradeoff**        | Convenience, less control  | Control, more responsibility    |
+
+---
+
 
 # Software Wallets
 
@@ -38,15 +50,24 @@ Vitalik Buterin, the co-founder of Ethereum, emphasizes the importance of unders
 - Consider multi-signature wallets for added security.
 
 ---
+# Examples of Software Wallets
+
+- **Metamask**: A browser extension and mobile wallet that supports Ethereum and ERC-20 tokens, with dApp integration.
+- **Phantom**: A user-friendly wallet primarily for Solana blockchain, offering staking and NFT support.
+- **Rainbow**: An Ethereum wallet with a beautiful interface, focused on DeFi and NFT management.
+- **X-Wallet**: A multi-chain wallet created by myself, supporting various networks and featuring simple staking and swapping features.
+---
 
 # Hardware Wallets
 
 Hardware wallets are physical devices designed to securely store your private keys offline, providing a high level of security against online threats.
 
 ### Examples of Hardware Wallets
-- **Ledger Nano S/X**: Popular hardware wallets supporting a wide range of cryptocurrencies.
+- **Ledger Nano S/X**: Popular hardware wallets supporting a wide range of cryptocurrencies.(7M $ makerDAO)
 - **Trezor**: Known for its user-friendly interface and robust security features.
-- **KeepKey**: Offers a sleek design and integration with various software wallets.
+- **KeepKey**: Offers a sleek design and integration with various -  software wallets.
+- **HSM Wallet**: Server Oriented Blockchain Protection
+
 
 <!-- ### Key Insights from Vitalik Buterin
 Vitalik Buterin highlights the importance of using hardware wallets for long-term storage of significant cryptocurrency holdings. He recommends:
@@ -56,15 +77,12 @@ Vitalik Buterin highlights the importance of using hardware wallets for long-ter
 - Avoiding the purchase of hardware wallets from unofficial or untrusted sources to prevent tampering. -->
 ---
 # Paper Wallets
-Paper wallets are a form of cold storage where private and public keys are printed on paper. They are highly secure against online threats but require careful handling to avoid physical damage or loss.
+Paper wallets store your cryptocurrency keys offline by printing them on paper.
 
-### Advantages of Paper Wallets
-- **Offline Storage**: Since they are not connected to the internet, paper wallets are immune to hacking and malware.
-- **Cost-Effective**: Creating a paper wallet is free, requiring only a printer and paper.
+- **Pros:** Immune to online attacks, no special hardware needed.
+- **Cons:** Vulnerable to physical damage or loss; if lost, funds are unrecoverable.
 
-### Disadvantages of Paper Wallets
-- **Fragility**: Paper can be easily damaged, lost, or destroyed by fire or water.
-- **No Backup**: If the paper wallet is lost or damaged, the funds are irretrievable.
+> **Tip:** Always generate paper wallets offline and keep multiple secure copies.
 <!-- 
 ### Best Practices for Paper Wallets
 - Use a trusted wallet generator in an offline environment.
@@ -75,16 +93,17 @@ Paper wallets are a form of cold storage where private and public keys are print
 
 ---
 # Crypto Wallet Security
-## Best Practices for Wallet Security
 
+## Best Practices for Wallet Security
 ### General Security Tips
-- **Enable Two-Factor Authentication (2FA)**: Add an extra layer of security to your wallet by enabling 2FA where possible.
-- **Use Strong Passwords**: Create complex and unique passwords for your wallet and associated accounts.
-- **Beware of Phishing Attacks**: Always verify the authenticity of websites and emails before entering sensitive information.
+- **Enable 2FA**: Add an extra security layer to your wallet.
+- **Use Strong Passwords**: Create unique, complex passwords.
+- **Avoid Phishing**: Verify websites before entering information.
 
 ### Backup and Recovery
-- **Backup Your Wallet**: Regularly back up your wallet and store the backup in a secure location.
-- **Secure Recovery Phrases**: Write down your recovery phrase and store it in a safe, offline location. Avoid storing it digitally to prevent hacking.
+- **Regular Backups**: Store wallet backups securely.
+- **Protect Recovery Phrases**: Keep recovery phrases offline in safe locations.
+---
 
 ### Device Security
 - **Keep Software Updated**: Regularly update your wallet software and device operating system to protect against vulnerabilities.
@@ -125,4 +144,4 @@ By understanding the differences between centralized and decentralized exchanges
 
 ---
 
-# hard fork
+# End

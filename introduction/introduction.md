@@ -2,11 +2,26 @@
 marp: true
 theme: default
 _class: invert
+paginate: true
 ---
 
 # Introduction to the Blockchain
 
 #### Understanding the Technology and Its Real-World Impact
+
+---
+
+# About Me (@ettaousy)
+
+- **Blockchain Engineer** (TradFi ↔ DeFi), 2022–Present
+- **Blockchain Engineer Thales, Lead Tech, IN GROUP**, 2019–2022
+- **Reasearhc lab**
+- **Intern, Maxeware Technology**, 2014
+
+**Education:**  
+- M1/M2 Computer Science, Aix-Marseille (2017–2019)  
+- Bachelor's in Software Quality, Mohammed V University, Rabat (2013–2014)  
+- BTS DSI, Kenitra (2010–2012)
 <!-- 
 Course Introduction: Why Blockchain?
 To understand the importance of blockchain, we need to go back to the period after World War II. After the war, the Allied nations came together to rebuild the global financial system. This led to the Bretton Woods Agreement in 1944, where it was decided that:
@@ -28,7 +43,10 @@ Then, in 2009, a revolutionary idea was born: Bitcoin. It introduced the concept
 |:---------------------------------------------:|:------------------------------------------------------------:|
 | **Bretton Woods Agreement, 1944**             | **Nixon Ends Gold Standard, 1971**                           |
 ---
+# Inflation
+<img src="../assets/inflation.png" width="600">
 
+---
 # Internet Protocol Layers
 
 The internet: Layers of open protocols
@@ -58,7 +76,10 @@ The internet: Layers of open protocols
 
 # PIZZA Hut: 1994 (First Online Sale) PizzaNet
 
-![First sell online](../assets/first-sell-online.jpg)
+<div style="display: flex; flex-direction: column; align-items: center;">
+  <img src="../assets/first-sell-online.jpg" alt="First sell online" style="max-width: 60%; margin-bottom: 1em;" />
+  <span style="font-size: 1.2em;"><strong>First Online Sale:</strong> Pizza Hut, 1994 (PizzaNet)</span>
+</div>
 
 ---
 
@@ -89,7 +110,7 @@ The internet: Layers of open protocols
 
 # First Purchase Made with Bitcoins
 
-!["First pizza"](../assets/pizza-for-bitcoin.jpeg)
+<img src="../assets/pizza-for-bitcoin.jpeg" width="550">
 
 ---
 
@@ -126,6 +147,9 @@ The internet: Layers of open protocols
 ---
 
 # Cryptography?
+<!-- 
+
+ -->
 
 ---
 
@@ -133,7 +157,7 @@ The internet: Layers of open protocols
 
 ## Communications in the Presence of Adversaries
 
-## SSL/TLS
+<img src="../assets/adversaries.png">
 
 ---
 
@@ -159,16 +183,8 @@ The internet: Layers of open protocols
 ![Satoshi's Email](../assets/bitcoin-email.png)
 
 ---
-
-# What is a Blockchain?
-| ** Timestamped Append-Only Log** | ** Consensus Protocol** |
-|------------------------------------|--------------------------|
-| - Sequential, time-stamped data  <br> - Immutable (append-only) | - Solves **Byzantine Generals Problem** <br> - Reduces **“cost of trust”** <br> - Networks: Permissioned / Permissionless |
-| **Auditable Database (Cryptography)** |  |
-| - Hash functions → **tamper resistance**, **integrity** <br> - Digital signatures → **consent** <br> - Consensus → **agreement** |  |
-
----
-![Satoshi's Email](../assets/blockchain-what-is.png)
+# What's Blockchain?
+![Satoshi's Email](../assets/blockchain.png)
 
 ---
 
@@ -179,7 +195,7 @@ The internet: Layers of open protocols
 3. **Consensus Mechanisms** – agree on valid transactions (PoW, PoS)
 4. **Smart Contracts** – self-executing code on-chain
 
-🔐 Cryptography and decentralization ensure trust and security.
+Cryptography and decentralization ensure trust and security.
 
 ---
 
@@ -204,23 +220,44 @@ order to be able to participate in the validation of transactions.
 
 ---
 
-# Nodes
+## Demo: Hashing Function, Blocks, Mining
 
-![Blocks](../assets/blocks.png)
+[Demo: Blockchain Block Explorer](http://localhost:3000/block)
 
 ---
 
-# 🔁 Blockchain Generations
+# Types de Blockchains
+
+| Type           | Access     | Control        | Example                      | Use Cases                         |
+|----------------|-----------|-----------------|------------------------------|-------------------------------------|
+| **Public**   | Open to all | Decentralized     | Bitcoin, Ethereum             | Crypto, DeFi, NFTs                   |
+| **Private**     | Restricted (enterprise) | Centralized      | Hyperledger Fabric, Quorum   | Supply chain, internal banking      |
+| **Consortium** | Restricted (group)     | Semi-decentralized | B3i (insurance), IBM Food Trust | Traceability, inter-enterprise |
+
+---
+<img src="../assets/blockchain-comparaison.png" width="900">
+
+---
+
+## Comparaison
+
+- **Publique** : transparente, résistante à la censure, lente
+- **Privée** : rapide, efficace, mais peu transparente
+- **Consortium** : compromis entre contrôle et décentralisation
+
+---
+
+#  Blockchain Generations
 
 1️⃣ **1st Gen** – Bitcoin (digital currency)  
 2️⃣ **2nd Gen** – Ethereum (smart contracts, Layer2, ZK)  
 3️⃣ **3rd Gen** – Solana, Polkadot, etc. (scalability, interoperability)
 
-🧱 Each generation solves the limitations of the previous one.
+Each generation solves the limitations of the previous one.
 
 ---
 
-# 💻 Smart Contracts (Code is Law)
+# Smart Contracts (Code is Law)
 
 - **What are they?** Programs that run on the blockchain
 - Written in **Solidity (EVM)** or **Rust (Solana, Near)**
@@ -234,12 +271,12 @@ order to be able to participate in the validation of transactions.
 
 ---
 
-# 🔍 Real Use Cases
+#  Real Use Cases
 
-✅ **Cryptocurrencies** – Decentralized digital money (e.g., Bitcoin, Ethereum)  
-✅ **Supply Chain** – Transparent, tamper-proof tracking of goods  
-✅ **Identity Management** – Secure digital IDs (e.g., passports, credentials)  
-✅ **Healthcare** – Immutable patient records & drug traceability
+* **Cryptocurrencies** – Decentralized digital money (e.g., Bitcoin, Ethereum)  
+* **Supply Chain** – Transparent, tamper-proof tracking of goods  
+* **Identity Management** – Secure digital IDs (e.g., passports, credentials)  
+* **Healthcare** – Immutable patient records & drug traceability
 
 ---
 
@@ -253,13 +290,31 @@ order to be able to participate in the validation of transactions.
 
 # Digital Identity (In Group)
 
-Verifiable credentials
+
+![Verifiable credentials](../assets/vcs.png)
+
+
 
 ---
+# Verifiable Credentials Use Cases
+<!-- ![Verifiable credentials](../assets/vcs-use-cases.png) -->
 
+
+| **Industry Applications** | **Key Use Cases** |
+|:--------------------------|:------------------|
+| **<img src="../assets/vcs-use-cases.png" width="400">** | • **Digital Identity:** Secure, privacy-preserving credentials<br>• **Education:** Verifiable diplomas and certificates<br>• **Healthcare:** Patient records and insurance claims<br>• **Finance:** KYC/AML and streamlined onboarding<br>• **Travel:** Digital passports and boarding passes<br>• **Employment:** Verified work history and skills |
+---
 # Real Estate Tokenization
 
 ![NFT Tokenization](../assets/tokenize.png)
+
+---
+
+# What We Do at SG Forge
+
+| **Our Focus Areas** | **Forge Products** |
+|:-------------------|:------------------:|
+| • **Security Token Offerings (STOs)** <br>• **Institutional-grade Digital Asset Custody** <br>• **Blockchain Settlement Solutions** <br>• **Tokenized Securities** | ![Forge products](../assets/forge.png) |
 
 ---
 
@@ -268,3 +323,10 @@ Verifiable credentials
 - Build your own ethereum blockchain: [https://github.com/dawar2151/ethereum-docker/tree/master](https://github.com/dawar2151/ethereum-docker/tree/master)
 - Bitcoin whitepaper: [https://bitcoin.org/bitcoin.pdf](https://bitcoin.org/bitcoin.pdf)
 - Gavin Wood(mastering-ethereum): [https://wiki.anomalous.xyz/pdfs/mastering-ethereum.pdf](https://wiki.anomalous.xyz/pdfs/mastering-ethereum.pdf)
+
+---
+
+# Thank You!
+
+## Questions?  
+Feel free to ask anything or share your thoughts.

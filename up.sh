@@ -1,3 +1,3 @@
 #!/bin/bash
 
-npx @marp-team/marp-cli@^2.4.0 --preview ./introduction/introduction.md
+npx @marp-team/marp-cli --html --preview ./introduction/introduction.md
