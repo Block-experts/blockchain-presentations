@@ -183,6 +183,11 @@ The internet: Layers of open protocols
 ![Satoshi's Email](../assets/bitcoin-email.png)
 
 ---
+# Crypto Market Cap
+
+![Crypto Marketcap](../assets/marketcap.png)
+
+---
 # What's Blockchain?
 ![Satoshi's Email](../assets/blockchain.png)
 
